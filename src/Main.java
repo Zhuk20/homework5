@@ -83,6 +83,7 @@ public class Main {
                 break;
             default:
                 System.out.println("Введите правильный номер месяца");
+
         }
     }
 }
