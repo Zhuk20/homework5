@@ -35,11 +35,11 @@ public class Main {
     }
     public static void task3(){
         System.out.println("Задание 3");
-        int year = 2023;
+        int year = 2021;
         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0){
-            System.out.println("год является високосным");
+            System.out.println("Год является високосным");
         } else {
-            System.out.println("год не является високосным");
+            System.out.println("Год не является високосным");
         }
     }
     public static void task4(){
@@ -83,7 +83,6 @@ public class Main {
                 break;
             default:
                 System.out.println("Введите правильный номер месяца");
-
         }
     }
 }
