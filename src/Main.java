@@ -81,6 +81,8 @@ public class Main {
             case 11:
                 System.out.println("Месяц принадлежит к осеннему сезону");
                 break;
+            default:
+                System.out.println("Введите правильный номер месяца");
         }
     }
 }
